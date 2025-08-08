@@ -1,60 +1,82 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Evan Toder: The Gentleman You Didn't Know You Needed</title>
     <meta name="description" content="Experience charm, class, and unforgettable moments with Evan Toder">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
 <body class="bg-gray-900 text-gray-100 font-sans antialiased">
     <header class="fixed w-full bg-gray-900/95 backdrop-blur-sm z-50 border-b border-gray-800">
         <nav class="container mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
-                <a href="#" class="text-xl font-bold tracking-tight text-white hover:text-indigo-400 transition-colors duration-300">ET</a>
+                <a href="https://moneymax911.github.io/evan-toder-the-gentleman-you-didn-t-know-you-needed-2025-08-08-23dta" class="text-xl font-bold tracking-tight text-white hover:text-indigo-400 transition-colors duration-300">ET</a>
                 <div class="hidden md:flex space-x-8">
                     <a href="#features" class="text-gray-300 hover:text-white transition-colors duration-300">Features</a>
                     <a href="#benefits" class="text-gray-300 hover:text-white transition-colors duration-300">Benefits</a>
+                    <a href="#testimonials" class="text-gray-300 hover:text-white transition-colors duration-300">Testimonials</a>
+                    <a href="#about" class="text-gray-300 hover:text-white transition-colors duration-300">About</a>
                     <a href="#faq" class="text-gray-300 hover:text-white transition-colors duration-300">FAQ</a>
                     <a href="#contact" class="text-gray-300 hover:text-white transition-colors duration-300">Contact</a>
                 </div>
-                <button class="md:hidden text-gray-300 hover:text-white">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-                    </svg>
+                <button class="mobile-menu-button md:hidden text-gray-300 hover:text-white" aria-label="Toggle mobile menu">
+                    <i class="fas fa-bars text-2xl"></i>
                 </button>
+            </div>
+            <div class="mobile-menu hidden md:hidden mt-4 bg-gray-800 rounded-lg p-4">
+                <a href="#features" class="block py-2 text-gray-300 hover:text-white transition-colors duration-300">Features</a>
+                <a href="#benefits" class="block py-2 text-gray-300 hover:text-white transition-colors duration-300">Benefits</a>
+                <a href="#testimonials" class="block py-2 text-gray-300 hover:text-white transition-colors duration-300">Testimonials</a>
+                <a href="#about" class="block py-2 text-gray-300 hover:text-white transition-colors duration-300">About</a>
+                <a href="#faq" class="block py-2 text-gray-300 hover:text-white transition-colors duration-300">FAQ</a>
+                <a href="#contact" class="block py-2 text-gray-300 hover:text-white transition-colors duration-300">Contact</a>
             </div>
         </nav>
     </header>
 
     <main>
         <section class="relative min-h-screen flex items-center justify-center py-24 px-6">
-            <div class="absolute inset-0 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900"></div>
+            <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80')] bg-cover bg-center opacity-20"></div>
+            <div class="absolute inset-0 bg-gradient-to-br from-gray-900 via-gray-800/90 to-gray-900"></div>
             <div class="relative container mx-auto text-center">
                 <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-purple-500">
                     Evan Toder: The Gentleman You Didn't Know You Needed
                 </h1>
                 <p class="text-xl md:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto">
-                    Charm, Class, and a Wink That Says "You're Welcome"
+                    Elevate Your Social Experience with Sophistication, Style, and Unmatched Charisma
                 </p>
                 <a href="https://pofree.org/" class="inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-semibold px-8 py-4 rounded-lg transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-indigo-500/50">
-                    Book Your Experience
+                    Begin Your Journey
                 </a>
             </div>
         </section>
 
         <section id="features" class="py-24 px-6 bg-gray-800">
             <div class="container mx-auto">
-                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Exceptional Features</h2>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
-                    <div class="bg-gray-700/50 rounded-xl p-8 hover:bg-gray-700 transition-all duration-300 transform hover:scale-105">
-                        <h3 class="text-xl font-semibold mb-4">Always Punctual</h3>
-                        <p class="text-gray-300">Time is precious, and so is your schedule. Count on impeccable timing, every time.</p>
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Premium Features</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                    <div class="bg-gray-700/50 rounded-xl p-8 hover:bg-gray-700 transition-all duration-300 transform hover:scale-105 hover:shadow-xl">
+                        <h3 class="text-xl font-semibold mb-4">Impeccable Timing</h3>
+                        <p class="text-gray-300">Never worry about tardiness. Experience military-grade punctuality with a gentleman who values your schedule as much as his own.</p>
                     </div>
-                    <div class="bg-gray-700/50 rounded-xl p-8 hover:bg-gray-700 transition-all duration-300 transform hover:scale-105">
-                        <h3 class="text-xl font-semibold mb-4">Never Boring</h3>
-                        <p class="text-gray-300">Engaging conversation, captivating presence, and memorable moments guaranteed.</p>
+                    <div class="bg-gray-700/50 rounded-xl p-8 hover:bg-gray-700 transition-all duration-300 transform hover:scale-105 hover:shadow-xl">
+                        <h3 class="text-xl font-semibold mb-4">Engaging Presence</h3>
+                        <p class="text-gray-300">Command attention with a companion skilled in the art of conversation, wit, and social grace. Every moment becomes memorable.</p>
+                    </div>
+                    <div class="bg-gray-700/50 rounded-xl p-8 hover:bg-gray-700 transition-all duration-300 transform hover:scale-105 hover:shadow-xl">
+                        <h3 class="text-xl font-semibold mb-4">Versatile Expertise</h3>
+                        <p class="text-gray-300">From black-tie galas to casual brunches, adapt seamlessly to any social situation with sophistication and authenticity.</p>
                     </div>
                 </div>
             </div>
@@ -62,16 +84,90 @@
 
         <section id="benefits" class="py-24 px-6 bg-gray-900">
             <div class="container mx-auto">
-                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Why Choose Evan</h2>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
-                    <div class="p-8 border border-gray-700 rounded-xl">
-                        <h3 class="text-xl font-semibold mb-4">Boost Your Confidence</h3>
-                        <p class="text-gray-300">Experience immediate elevation in social situations with a companion who knows exactly how to make you shine.</p>
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">The Evan Advantage</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                    <div class="p-8 border border-gray-700 rounded-xl hover:border-indigo-500 transition-all duration-300 transform hover:scale-105">
+                        <h3 class="text-xl font-semibold mb-4">Social Elevation</h3>
+                        <p class="text-gray-300">Watch as doors open and opportunities multiply with a companion who understands the nuances of social dynamics.</p>
                     </div>
-                    <div class="p-8 border border-gray-700 rounded-xl">
-                        <h3 class="text-xl font-semibold mb-4">Legendary Stories</h3>
-                        <p class="text-gray-300">Create memories worth sharing, with discretion guaranteed.</p>
+                    <div class="p-8 border border-gray-700 rounded-xl hover:border-indigo-500 transition-all duration-300 transform hover:scale-105">
+                        <h3 class="text-xl font-semibold mb-4">Confidence Catalyst</h3>
+                        <p class="text-gray-300">Experience immediate elevation in any setting with a partner who knows exactly how to make you the star of the show.</p>
                     </div>
+                    <div class="p-8 border border-gray-700 rounded-xl hover:border-indigo-500 transition-all duration-300 transform hover:scale-105">
+                        <h3 class="text-xl font-semibold mb-4">Memorable Moments</h3>
+                        <p class="text-gray-300">Create stories worth telling, with the assurance of complete discretion and professional conduct.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="py-24 px-6 bg-gray-800">
+            <div class="container mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Client Testimonials</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-gray-700/50 p-6 rounded-xl hover:shadow-xl transition-all duration-300">
+                        <div class="flex text-yellow-400 mb-4">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-300 mb-4">"Evan turned what could have been an awkward business gala into a triumph. His knowledge of industry trends and ability to network naturally made me look like a seasoned pro."</p>
+                        <p class="font-semibold">Sarah M.</p>
+                        <p class="text-sm text-gray-400">CEO, Tech Startup</p>
+                    </div>
+                    <div class="bg-gray-700/50 p-6 rounded-xl hover:shadow-xl transition-all duration-300">
+                        <div class="flex text-yellow-400 mb-4">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-300 mb-4">"The perfect gentleman for my charity event. His presence added an air of sophistication, and his conversational skills kept donors engaged all evening."</p>
+                        <p class="font-semibold">Michael R.</p>
+                        <p class="text-sm text-gray-400">Event Coordinator</p>
+                    </div>
+                    <div class="bg-gray-700/50 p-6 rounded-xl hover:shadow-xl transition-all duration-300">
+                        <div class="flex text-yellow-400 mb-4">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-300 mb-4">"Professional, punctual, and personable. Evan made my sister's wedding so much more enjoyable, keeping me company and helping me navigate family dynamics with grace."</p>
+                        <p class="font-semibold">Jessica T.</p>
+                        <p class="text-sm text-gray-400">Private Client</p>
+                    </div>
+                    <div class="bg-gray-700/50 p-6 rounded-xl hover:shadow-xl transition-all duration-300">
+                        <div class="flex text-yellow-400 mb-4">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-300 mb-4">"Worth every penny. Evan's attention to detail and ability to read social situations made my corporate event a resounding success."</p>
+                        <p class="font-semibold">David K.</p>
+                        <p class="text-sm text-gray-400">Corporate Executive</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-24 px-6 bg-gray-900">
+            <div class="container mx-auto max-w-4xl">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">About Evan Toder</h2>
+                <div class="space-y-8 text-gray-300">
+                    <p class="leading-relaxed">
+                        Founded in 2020, Evan Toder's premium companionship service emerged from a recognition that successful individuals often need more than just a plus-one – they need a strategic partner who can enhance their social presence and professional image. With a background in social psychology and years of experience in high-society circles, Evan has cultivated a reputation for excellence in social companionship.
+                    </p>
+                    <p class="leading-relaxed">
+                        Our mission is to provide unparalleled social companionship services that empower our clients to navigate any social situation with confidence and grace. We believe in creating authentic connections, maintaining absolute discretion, and delivering experiences that exceed expectations. Our core values of professionalism, authenticity, and sophistication guide every interaction and ensure the highest quality service for our distinguished clientele.
+                    </p>
                 </div>
             </div>
         </section>
@@ -80,13 +176,25 @@
             <div class="container mx-auto max-w-4xl">
                 <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Frequently Asked Questions</h2>
                 <div class="space-y-6">
-                    <div class="bg-gray-700/50 rounded-lg p-6">
+                    <div class="bg-gray-700/50 rounded-lg p-6 hover:bg-gray-700 transition-all duration-300">
                         <h3 class="text-xl font-semibold mb-2">What services do you offer?</h3>
-                        <p class="text-gray-300">Professional companionship for social events, business functions, and exclusive gatherings.</p>
+                        <p class="text-gray-300">We provide sophisticated companionship for social events, business functions, weddings, galas, and other exclusive gatherings. Each service is tailored to meet your specific needs and social objectives.</p>
                     </div>
-                    <div class="bg-gray-700/50 rounded-lg p-6">
-                        <h3 class="text-xl font-semibold mb-2">How do I book?</h3>
-                        <p class="text-gray-300">Simply reach out through our contact form or email for a discrete consultation.</p>
+                    <div class="bg-gray-700/50 rounded-lg p-6 hover:bg-gray-700 transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-2">How far in advance should I book?</h3>
+                        <p class="text-gray-300">We recommend booking at least two weeks in advance for standard events, and one month for special occasions or travel arrangements. However, we do our best to accommodate last-minute requests.</p>
+                    </div>
+                    <div class="bg-gray-700/50 rounded-lg p-6 hover:bg-gray-700 transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-2">What is your privacy policy?</h3>
+                        <p class="text-gray-300">Client confidentiality is paramount. All interactions, communications, and arrangements are kept strictly confidential. We maintain the highest standards of discretion and professionalism.</p>
+                    </div>
+                    <div class="bg-gray-700/50 rounded-lg p-6 hover:bg-gray-700 transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-2">What should I expect during our first meeting?</h3>
+                        <p class="text-gray-300">We begin with a brief consultation to understand your needs and preferences. This helps us tailor our service to create the perfect experience for your specific situation.</p>
+                    </div>
+                    <div class="bg-gray-700/50 rounded-lg p-6 hover:bg-gray-700 transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-2">What is your cancellation policy?</h3>
+                        <p class="text-gray-300">We understand that plans can change. Cancellations made 48 hours or more in advance receive a full refund. Last-minute cancellations are handled on a case-by-case basis.</p>
                     </div>
                 </div>
             </div>
@@ -96,7 +204,7 @@
             <div class="container mx-auto max-w-4xl text-center">
                 <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready to Experience Excellence?</h2>
                 <p class="text-xl text-gray-300 mb-8">Contact me directly at:</p>
-                <a href="mailto:MaleGigolo@EvanTodersPlace.com" class="text-indigo-400 hover:text-indigo-300 text-xl font-semibold transition-colors duration-300">
+                <a href="mailto:MaleGigolo@EvanTodersPlace.com" class="text-indigo-400 hover:text-indigo-300 text-xl font-semibold transition-colors duration-300 hover:underline">
                     MaleGigolo@EvanTodersPlace.com
                 </a>
             </div>
@@ -105,7 +213,7 @@
 
     <footer class="bg-gray-800 py-12 px-6">
         <div class="container mx-auto">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
                 <div>
                     <h3 class="text-xl font-bold mb-4">Evan Toder</h3>
                     <p class="text-gray-400">Elevating your social experience with class and sophistication.</p>
@@ -115,7 +223,17 @@
                     <ul class="space-y-2">
                         <li><a href="#features" class="text-gray-400 hover:text-white transition-colors duration-300">Features</a></li>
                         <li><a href="#benefits" class="text-gray-400 hover:text-white transition-colors duration-300">Benefits</a></li>
+                        <li><a href="#testimonials" class="text-gray-400 hover:text-white transition-colors duration-300">Testimonials</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-white transition-colors duration-300">About</a></li>
                         <li><a href="#faq" class="text-gray-400 hover:text-white transition-colors duration-300">FAQ</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Legal</h3>
+                    <ul class="space-y-2">
+                        <li><a href="https://moneymax911.github.io/evan-toder-the-gentleman-you-didn-t-know-you-needed-2025-08-08-23dta/privacy.html" class="text-gray-400 hover:text-white transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="https://moneymax911.github.io/evan-toder-the-gentleman-you-didn-t-know-you-needed-2025-08-08-23dta/terms.html" class="text-gray-400 hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="https://moneymax911.github.io/evan-toder-the-gentleman-you-didn-t-know-you-needed-2025-08-08-23dta/blog.html" class="text-gray-400 hover:text-white transition-colors duration-300">Blog</a></li>
                     </ul>
                 </div>
                 <div>
@@ -130,5 +248,36 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
 </body>
 </html>
